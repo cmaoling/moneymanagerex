@@ -152,6 +152,8 @@ void Model_Usage::pageview(const wxString& documentPath, const wxString& documen
 
 void Model_Usage::pageview(const std::string& documentPath, const std::string& documentTitle)
 {
+    
+    return;
     if (!Option::instance().SendUsageStatistics())
     {
         return;
